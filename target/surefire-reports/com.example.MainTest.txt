@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.MainTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.037 s <<< FAILURE! - in com.example.MainTest
+com.example.MainTest.shouldBe1000again  Time elapsed: 0.022 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1000> but was: <11>
+	at com.example.MainTest.shouldBe1000again(MainTest.java:18)
+
+com.example.MainTest.shouldBe1000  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1000> but was: <11>
+	at com.example.MainTest.shouldBe1000(MainTest.java:12)
+
+com.example.MainTest.shouldBe1000again2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1000> but was: <11>
+	at com.example.MainTest.shouldBe1000again2(MainTest.java:24)
+
